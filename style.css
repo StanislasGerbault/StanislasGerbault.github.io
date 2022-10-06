@@ -40,8 +40,41 @@ h3 {
     text-decoration: underline;
     background-color: #2e4164;
     background: linear-gradient(to right, #2e4164, 50%, #3d5683);
+    color: rgb(190, 190, 190);
 }
 
 h2 {
     text-decoration: underline;
+}
+h4 {
+    color: gainsboro;
+}
+
+#couleur p {
+    color: white;
+}
+
+#couleur li {
+    color: white;
+}
+
+.niveaulangue {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cercles {
+    background-color: lightgrey;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0.5rem;
+}
+
+.cerclesbon {
+    background-color: rgb(80, 158, 247);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0.5rem;
 }
